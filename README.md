@@ -28,13 +28,13 @@ Este repositorio contiene el código y los recursos para un proyecto de diseño 
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/Manteca-Daniel/ManteCamisetas.git
    ```
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd tu-repositorio
+   cd ManteCamisetas
    ```
 
 3. Abre `index.html` en tu navegador.
