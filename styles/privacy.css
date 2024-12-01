@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: #333;
+}
+p {
+    margin-bottom: 1em;
+}
+ul {
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+@media (min-width: 600px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

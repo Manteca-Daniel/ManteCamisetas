@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contactos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./img/Icon.png" />
+    <title>Contacto</title>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+
+<body>
+    <header class="sour-gummy-light">
+        <div class="empresa">ManteCamisetas</div>
+
+        <nav class="nav-links">
+            <div class="menu-item">
+                <a href="index.html">Inicio</a>
+            </div>
+            <div class="menu-item">
+                <a href="productos.html">Productos</a>
+                <div class="submenu">
+                    <a href="./Productos/CamisetasFutbol.html">Camisetas futbol</a>
+                    <a href="./Productos/CamisetasBaket.html">Camisetas baloncesto</a>
+                    <a href="./Productos/Pantalones.html">Pantalones</a>
+                    <a href="./Productos/Accesorios.html">Accesorios</a>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="contactos.html">Contacto</a>
+            </div>
+            <div class="menu-item">
+                <a href="privacy.html">Privacidad</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-grid">
+        <h2>Formulario de Contacto</h2>
+        <p>Si tienes alguna pregunta, comentario o simplemente deseas saludarnos, ¡completa el formulario a continuación
+            y nos pondremos en contacto contigo lo antes posible!</p>
+        <form action="#" method="post" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <section class="faq">
+            <h3>Preguntas Frecuentes</h3>
+            <ul>
+                <li>
+                    <strong>¿Dónde están ubicados?</strong>
+                    <p>Estamos en Madrid, España. Ofrecemos envíos nacionales e internacionales.</p>
+                </li>
+                <li>
+                    <strong>¿Cómo puedo rastrear mi pedido?</strong>
+                    <p>Una vez que realices un pedido, recibirás un correo con el enlace de seguimiento.</p>
+                </li>
+                <li>
+                    <strong>¿Aceptan devoluciones?</strong>
+                    <p>Sí, aceptamos devoluciones dentro de los 30 días posteriores a la entrega.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="sour-gummy-light">
+        <div class="footer-content">
+            <p>Síguenos en nuestras redes:</p>
+            <div class="redes">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ManteCamisetas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
